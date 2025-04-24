@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: millow-wiki-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
+    autoDeploy: true
