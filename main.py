@@ -100,4 +100,4 @@ def webhook():
 
 @app.route("/")
 def index():
-    return "Millow Wiki Bot is running.”
+    return "Millow Wiki Bot is running."
